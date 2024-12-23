@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Github, Twitter, Instagram } from 'lucide-react';
+import { Mail, Linkedin,  Twitter, Instagram } from 'lucide-react';
 
 export const socialLinks = [
   {
