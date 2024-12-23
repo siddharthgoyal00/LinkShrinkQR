@@ -10,7 +10,7 @@ export function LinkShortener() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const shortId = nanoid(8);
-    setShortUrl(`https://short.ly/${shortId}`);
+    setShortUrl(`https://linkshrink-qr.vercel.app/${shortId}`);
   };
 
   const copyToClipboard = async () => {
